@@ -1,0 +1,17 @@
+{
+  "name": "scorpio",
+  "version": "3.0.0",
+  "description": "Discord bot framework reporting player/guild details for the Star Wars Galaxy of Heroes mobile game",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shittybill",
+  "license": "MIT",
+  "dependencies": {
+    "api-swgoh-help": "^3.3.0",
+    "discord.js": "^11.4.2",
+    "google-translate-api": "^2.3.0",
+    "mongoose": "^5.3.13"
+  }
+}

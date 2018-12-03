@@ -1,0 +1,17 @@
+{
+    "help":{
+        "title":"Google translate help",
+        "description":"`------------------------------`\nTranslate a discord user's past n-message\nRequired: `user`, `language`\nOptional: `num` (default 1)\nNote: I don't translate embeds, nor my own command requests\n```\n%s me french 2\n%s @mention german\n```\n"
+    },
+    "command":{
+        "title":"Found %d message(s) by %s"
+    },
+    "error":{
+        "noUser":"Please specify a user to translate their messages\n```md\n<command> [user] <language> [number of messages]\n```\n",
+        "noAuthor":"I could not find this user in this channel",
+        "noLanguage":"Please specify a language to translate\n```md\n<command> [user] <language> [number of messages]\n```\n",
+        "noMessages":"I could not find any messages in this channel - from this user",
+        "noTranslations":"No messages have been translated\nNote: I don't translate embeds or my own bot commands",
+        "tooLong":"Translated copy is too long, please try less messages"
+    }
+}

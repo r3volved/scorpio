@@ -1,0 +1,114 @@
+{
+    "help":{
+        "title":"Player details",
+        "description":"Provides a player-report for specified players\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s @mention\n%s 123456789```\n"
+        }
+    },
+    
+    "zetaRecommendHelp":{
+        "title":"Player zeta recommendations",
+        "description":"Provides zeta-recommendations for specified players\nUnits are ranked by level, rarity and gear completion\nRanks are scaled: `(best) 1 => 0 (worst)`\n**Available scoring criteria**:\n`pvp`, `tw`, `tb`, `pit`, `tank`, `sith`, `versa`\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s @mention [...criteria]\n%s 123456789 [...criteria]```\n"
+        }
+    },
+
+    "zetaHelp":{
+        "title":"Player zeta details",
+        "description":"Provides a zeta-report for specified players\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s @mention\n%s 123456789```\n"
+        }
+    },
+    
+    "charHelp":{
+        "title":"Player-character details",
+        "description":"Provides a character-report for specified players and characters\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s vader\n%s @mention thrawn\n%s 123456789 han solo```\n"
+        }
+    },
+    
+    "charArenaHelp":{
+        "title":"Character arena details",
+        "description":"Provides a character-arena-report for specified players\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s @mention\n%s 123456789```\n"
+        }
+    },
+    
+    "shipHelp":{
+        "title":"Player-ship details",
+        "description":"Provides a ship-report for specified players and ships\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s bomber\n%s @mention hounds\n%s 123456789 tie fighter```\n"
+        }
+    },
+    
+    "shipArenaHelp":{
+        "title":"Ship arena details",
+        "description":"Provides a ship-arena-report for specified players\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s @mention\n%s 123456789```\n"
+        }
+    },
+    
+    "command":{
+        "title":"**Player details - %s - %s**",
+        "zetaTitle":"**Player details - %s - %s**",
+        "zetaRecommendTitle":"**Recommended zetas for %s - %s**",
+        "charTitle":"**Character details - %s - %s**",
+        "charArenaTitle":"**Character arena details - %s - %s**",
+        "shipTitle":"**Ship details - %s - %s**",        
+        "shipArenaTitle":"**Ship arena details - %s - %s**",        
+        "level":"Level",
+        "guild":"Guild",
+        "updated":"Last updated",
+        "found":"**Found %d matches**\n",
+        "foundZetas":"**Found %d zetas across %d units**\n",
+        "fields":{
+            "char":"**Characters (%d)**",
+            "ship":"**Ships (%d)**",
+            "arenaRank":"Arena rank",
+            "zetas":"Total zetas",
+            "mods":"Total mods",
+            "level":"Level 85",
+            "gp":"Total GP",
+            "gear12plus":"XII+",
+            "gear12":"XII",            
+            "gear11":"XI",            
+            "gear10":"X",            
+            "hardware3":"Hardware lvl 3",
+            "hardware2":"Hardware lvl 2",
+            "offense":"Offense",
+            "speed":"Speed",
+            "bonus":"set bonus",
+            "zRank":"**Unit ranked by**: level, rarity, gear\n",
+            "zScore":"**Zeta scored against**: %s\n",
+            "zCriteria":"**Available scoring filters**:\n`pvp`, `tw`, `tb`, `pit`, `tank`, `sith`, `versa`\n",
+            "zScale":"`Scale: (best) 1 => 0 (worst)`\n"
+        },
+        "loading":{
+            "zetaRosters":"Analyzing zeta-rosters for %s",
+            "zetaRoster":"Analyzing zeta-roster for %s"
+        },
+        "arenaTypes":["","Member","Leader","Commander","Support","Reinforcement"]
+    },
+
+    "error":{
+        "noUser":"Please provide a valid allycode or registered user",
+        "noCharacter":"Please specify character(s) to query",
+        "noShip":"Please specify ship(s) to query"
+    }
+}
+            
+            

@@ -1,0 +1,128 @@
+{
+    "help":{
+        "title":"Guild details",
+        "description":"Provides a guild-report for the specified player guilds\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s @mention\n%s 123456789```\n"
+        }
+    },
+
+    "zetaHelp":{
+        "title":"Guild-wide zeta details",
+        "description":"Provides a guild-wide zeta-report for specified player guilds\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s @mention\n%s 123456789```\n"
+        }
+    },
+    
+    "charHelp":{
+        "title":"Guild-wide character details",
+        "description":"Provides a character-report for specified players and characters\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s vader\n%s @mention thrawn\n%s 123456789 han solo```\n"
+        }
+    },
+    
+    "shipHelp":{
+        "title":"Guild-wide ship details",
+        "description":"Provides a ship-report for specified players and ships\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s bomber\n%s @mention hounds\n%s 123456789 tie fighter```\n"
+        }
+    },
+    
+    "vsHelp":{
+        "title":"Guild-vs-guild details",
+        "description":"Provides a guild-vs-guild report comparing two guilds\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s 123456789 987654321```\n"
+        }
+    },
+    
+    "vsCoiHelp":{
+        "title":"Guild-vs-guild - Characters of interest",
+        "description":"Provides a guild-vs-guild report comparing two guilds\n",
+        "example":{
+            "name":"Example",
+            "value":"```\n%s 123456789 987654321```\n"
+        }
+    },
+    
+    "command":{
+        "title":"**Guild details - %s**",
+        "zetaTitle":"**Guild-zeta details - %s**",
+        "charTitle":"**Guild-character details - %s**",
+        "shipTitle":"**Guild-ship details - %s**",
+        "unitsTitle":"**Units of interest**\n",
+        "updated":"Last updated",
+        "found":"**Found %d matches**\n",
+        "foundZetas":"**Found %d zetas across %d skills**\n",
+        "foundName":"Found %s units\n",
+        "fields":{
+            "char":"**Characters (%d)**",
+            "ship":"**Ships (%d)**",
+            "arenaRank":"Arena rank",
+            "zetas":"Total zetas",
+            "mods":"Total mods",
+            "level":"Level 85",
+            "gpTotal":"Total GP",
+            "gpChar":"Char GP",
+            "gpShip":"Ship GP",
+            "gear12plus":"Gear XII+",
+            "gear12":"Gear XII",            
+            "gear11":"Gear XI",            
+            "gear10":"Gear X",            
+            "hardware3":"Hardware lvl 3",
+            "hardware2":"Hardware lvl 2",
+            "offense":"Offense",
+            "speed":"Speed",
+            "bonus":"set bonus",
+            "raids":"Raids",
+            "rancor":"Rancor",
+            "aat":"AAT",
+            "sith":"Sith",
+            "details":"Details",
+            "status":"Status",
+            "required":"Required",
+            "members":"Members",
+            "leader":"Leader",
+            "officers":"Officers",
+            "units":"Units",
+            "ships":"Ships",
+            "characters":"Characters",
+            "plus30SpeedPrimary":"+30-speed primary",
+            "equal30SpeedPrimary":"30-speed primary",
+            "plus25SpeedSecondary":"+25-speed secondary",
+            "plus20SpeedSecondary":"20-24-speed secondary",
+            "sixDotMods":"6-dot mods",
+            "sum":"Sum",
+            "queried":"Queried",
+            "pilot":"Pilot"
+        },
+        "loading":{
+            "guilds":"Looking up guilds for %s",
+            "guild":"Looking up guild for %s",
+            "updating":"Updating guild members...",
+            "foundGuilds":"Found: %s\nLooking for player updates..."
+        }
+    },
+    
+    "guildStatus":["","Open","Invite only","Closed"],
+    "guildMemberTypes":["","Pending","Member","Officer","Leader"],
+
+    "error":{
+        "noUser":"Please provide a valid allycode or registered user",
+        "noCharacter":"Please specify character(s) to query",
+        "noShip":"Please specify ship(s) to query",
+        "twoGuildsTitle":"Two guilds required",
+        "twoGuilds":"This command requires two allycodes\nFound: %d\n%s"
+    }
+    
+}
+            
+            

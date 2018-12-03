@@ -1,0 +1,52 @@
+{
+    "add":{
+        "help":{
+            "title":"Registration help",
+            "description":"`------------------------------`\nRegister your allycode with your discord user for quicker command use\nRequired: `user`, `allycode`\n",
+            "example":{
+                "name":"Example",
+                "value":"```\n%s me 123456789\n%s @mention 987654321\n```\n"
+            }
+        },
+        "command":{
+            "title":"Registration %s",
+            "registered":"`------------------------------`\nAllycode: `%s` has been registered to <@%s>\n",
+            "updated":"`------------------------------`\nAllycode: `%s` is now registered to <@%s>\n",
+            "noChange":"`------------------------------`\nAllycode: `%s` is already registered to <@%s>\n"
+        }
+    },
+    "get":{
+        "help":{
+            "title":"Registration help",
+            "description":"`------------------------------`\nQuery a player by mention or by allycode\nRequired: `user`, or `allycode`\n",
+            "example":{
+                "name":"Example",
+                "value":"```\n%s 123456789\n%s @mention\n```\n"
+            }
+        },
+        "command":{
+            "title":"Whois"
+        }
+    },
+    "rem":{
+        "help":{
+            "title":"Registration help",
+            "description":"`------------------------------`\nRemoves all registered allycodes from your discord user\n",
+            "example":{
+                "name":"Example",
+                "value":"```\n%s\n```\n"
+            }
+        },
+        "command":{
+            "title":"Registration %s",
+            "none":"`------------------------------`\nYou do not have any registered allycodes\n",
+            "updated":"`------------------------------`\nRegistration has been updated\nYour discord has been cleared of all allycodes\n"
+        }
+    },
+    "error":{
+        "noAllycodeOrUser":"Please provide an allycode and a discord user",
+        "noApi":"Sorry, I am currently disconnected from API...please try again later",
+        "noRegistration":"This user is not registered\n"
+    }  
+    
+}

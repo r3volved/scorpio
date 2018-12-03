@@ -1,0 +1,8 @@
+{
+    "title":"Invite %s",
+    "description":"✦ [Invite %s to your own server](https://discordapp.com/oauth2/authorize?client_id=%s&scope=bot&permissions=515136) \n",
+    "note":{
+        "name":"Note",
+        "value":"Server administration permissions \nrequired to invite \n`------------------------------`\n"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "command":{
+        "title":"%s - Status",
+        "description":"**App name** : %s \n**Version** : %s \n**Author** : %s \n**Description** : %s \n`------------------------------`\n",
+        "fields":[{
+            "name":"Loaded commands : %d",
+            "value":""
+        },{
+            "name":"Discord presence",
+            "value":"**Reach** : `%s users` \n**Servers** : `%d` \n**Regions** : `%d` \n"
+        },{
+            "name":"Footprint",
+            "value":"**SWAPI** : `%s` \n**Master Queue** : `%s` \n**Child Queue** : `%s` \n**API Queue** : `%s` \n`------------------------------`\n**Rss** : `%s` mb \n**Heap** : `%s` mb \n**Used** : `%s` mb \n**Ext** : `%s` mb \n`------------------------------`\n"
+        }]
+    },
+    "error":{
+        "noUser":"Please specify a user to translate their messages\n```md\n<command> [user] <language> [number of messages]\n```\n",
+        "noAuthor":"I could not find this user in this channel",
+        "noLanguage":"Please specify a language to translate\n```md\n<command> [user] <language> [number of messages]\n```\n",
+        "noMessages":"I could not find any messages in this channel - from this user",
+        "noTranslations":"No messages have been translated\nNote: I don't translate embeds or my own bot commands",
+        "tooLong":"Translated copy is too long, please try less messages"
+    }
+}
