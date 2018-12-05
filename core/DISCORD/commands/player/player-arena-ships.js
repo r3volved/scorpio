@@ -95,7 +95,7 @@ const command = async ( message ) => {
                 })
                 
                 embed.description += "**"+STRING.command.fields.gp+"** : "+gp.toLocaleString()+"\n"
-                embed.description += "**"+STRING.command.fields.arenaRank+"**: "+player.arena.char.rank+"\n"
+                embed.description += "**"+STRING.command.fields.arenaRank+"**: "+player.arena.ship.rank+"\n"
                 embed.description += '`--------------------------------`\n'
                 
 

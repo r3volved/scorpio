@@ -4,6 +4,7 @@ const config = require("./config/config.js")
 
 //Global bot reference
 global.Bot = {
+    root    : process.cwd(),
     env     : env,
     app     : require("./package.json"),
     config  : config[env],

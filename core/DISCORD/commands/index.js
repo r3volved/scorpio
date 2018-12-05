@@ -40,15 +40,17 @@ module.exports = {
     gz  : commands.gz  ? require('./guild/guild-zetas.js') : null,
     gc  : commands.gc  ? require('./guild/guild-info-characters.js') : null,
     gs  : commands.gs  ? require('./guild/guild-info-ships.js') : null,
+    ggp : commands.ggp ? require('./guild/guild-info-gp.js') : null,
     gvs : commands.gvs ? require('./guild/guild-vs.js') : null,
     gvu : commands.gvu ? require('./guild/guild-vs-coi.js') : null,
+    tb  : commands.tb  ? require('./guild/guild-info-tb.js') : null,
     
 
 
     //Utilities
     status    : commands.status    ? require('./utilities/bot-status.js')       : null,
     translate : commands.translate ? require('./utilities/google-translate.js') : null,
-
+    
 
     //SWAPI DEMO
     players : commands.players ? require('./demo/demo-players.js') : null,
@@ -58,6 +60,11 @@ module.exports = {
     squads  : commands.events  ? require('./demo/demo-squads.js')  : null,
     zetas   : commands.events  ? require('./demo/demo-zetas.js')   : null,
 
+
+    blacklist : commands.blacklist ? require('./utilities/blacklist.js') : null,
+    premium : commands.premium ? require('./utilities/premium.js') : null,
+    vsu : commands.vsu ? require('./premium/guild-vs-units.js') : null,
+    vss : commands.vss ? require('./premium/guild-vs-squads.js') : null,
 
 
 }

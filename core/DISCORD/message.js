@@ -1,6 +1,6 @@
 module.exports = async ( message ) => {
 
-    if( Bot.config.discord.blacklist.includes(message.author.id) ) {
+    if( Bot.blacklist.includes(message.author.id) ) {
         Report.log("Ungrateful bitch:", message.author.id, message.author.username)
         Report.log(message.content)
         

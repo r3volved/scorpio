@@ -32,7 +32,8 @@ const command = async ( message ) => {
 
     
     Object.keys(Bot.config.discord.commands).forEach( group => {
-        if( group !== "hidden" ) { 
+        if( group !== "hidden" ) {
+            if( group === "premium" && !Bot.config.discord.premium.includes(message.author.id) ) { return }         
             let fieldName = group.charAt(0).toUpperCase()+group.slice(1)
                 fieldName = fieldName.replace(/_/g,' ')
                 

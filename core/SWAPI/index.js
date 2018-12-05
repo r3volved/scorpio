@@ -22,6 +22,9 @@ swapi = {
     squads  : require('./handlers/squads.js'),
     zetas   : require('./handlers/zetas.js'),
 
+    units   : require('./handlers/units.js'),
+    skills  : require('./handlers/skills.js'),
+
 
     //Load interface utilities
     util: require('./util'),

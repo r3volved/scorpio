@@ -16,7 +16,6 @@ module.exports = async ( message ) => {
         const cursor = db.collection('units')
             .find({updated:{ $gt:unexpired }})
             .sort({updated:-1})
-            .limit(1)
         
         let found = false
         while( await cursor.hasNext() ) {
@@ -41,7 +40,6 @@ module.exports = async ( message ) => {
             const cache = db.collection('units')
                 .find({})
                 .sort({updated:-1})
-                .limit(1)
             
             while( await cache.hasNext() ) {
                 const cacheUnits = await cursor.next()

@@ -116,8 +116,8 @@
     "guildMemberTypes":["","Pending","Member","Officer","Leader"],
 
     "error":{
-        "noUser":"Please provide a valid allycode or registered user",
-        "noCharacter":"Please specify character(s) to query",
+        "noUser":"Merci de nous donner un code allié valide ou vous enregistrer",
+        "noCharacter":"Merci de spécifier le(s) personnages à rechercher",
         "noShip":"Please specify ship(s) to query",
         "twoGuildsTitle":"Two guilds required",
         "twoGuilds":"This command requires two allycodes\nFound: %d\n%s"

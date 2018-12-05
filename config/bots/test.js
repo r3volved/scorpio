@@ -7,23 +7,24 @@ module.exports = {
 	        "pass":"YOUR_DB_PASS",
 	        "host":"YOUR_DB_HOST",
 	        "port":27017,
-	        "auth":"?authSource=YOUR_AUTH_DB",
+	        "auth":"?authSource=YOUR_ADMIN_DB",
 	        "db":"swapi"
       	},
       	"api":{
 	        "username":"YOUR_API_USER",
 	        "password":"YOUR_API_PASS",
-        	"language":"eng_us"
+        	"language":"fre_fr"
       	}
     },
 
 	//DISCORD config
 	"discord":{
         "debug":true,
-	    "token":"YOUR_DISCORD_BOT_TOKEN",
-	    "prefix":"!",
-        "master":[ "DISCORD_ID" ],	
-	    "blacklist":["DISCORD_ID"],
+	    "token":"YOUR_BOT_TOKEN",
+	    "prefix":"$",
+        "master":[ "YOUR_DISCORD_ID" ],	
+	    "blacklist":"/config/data/blacklist.json",
+	    "premium":"/config/data/premium.json",
 	    "commands":{
 	        "help_commands":{
 	            "help":"This help menu",
@@ -53,11 +54,19 @@ module.exports = {
 	            "gz":"Guild zetas",
 	            "gs":"Guild-ship details",
 	            "gc":"Guild-character details",
+	            "ggp":"Guild details by GP",
 	            "gvs":"Guild-vs-guild summary",
 	            "gvu":"Guild-vs-guild units of interest",
+	            "tb":"List guild members by unit",
+            },
+            "premium_commands":{
+                "vsu":"G-vs-G Units of interest",
+                "vss":"G-vs-G Squads of interest"
             },
 	        "hidden":{
-	            "status":true
+	            "status":true,
+	            "premium":true,
+	            "blacklist":true,
 	        }
 	    }
 	}
